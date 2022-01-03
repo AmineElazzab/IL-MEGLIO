@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IL MEGLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    
+</head>
+
+<body>
+    <section class="header" id="header">
+        
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="#">IL MEGLIO <span>.</span></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#" class="active">Home <span>.</span></a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class=" ">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="row">
+                <div class="left-sec">
+                    <div class="c">
+                        <h2><span>IL</span><br>MEGLIO</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <button class="discover-btn">
+                        <a href="#">More</a><span><i class="far fa-arrow-alt-circle-right"></i></span>
+                    </button>
+                    <div class="information">
+                        <div class="me">
+                            <p>Designer</p>
+                            <h2>Med Amine</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right-sec">
+                    <div class="our-collection">
+                        <div><img src="img/7.png"  alt=""></div>
+                        <div><img src="img/30.png"   alt=""></div>
+                        <div><img src="img/40.png"   alt=""></div>
+                        <div><img src="img/44.png"   alt=""></div>
+                        <div><img src="img/19.png"   alt=""></div>
+                        <div><img src="img/4.png"   alt=""></div>
+                        <div><img src="img/img13.png"   alt=""></div>
+                        <div><img src="img/img12.png"  alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $(".our-collection").slick({
+            autoplay:true,
+            dots:true,
+            speed:1000,
+            
+
+        })
+    });
+    </script>
+</body>
+</html>
